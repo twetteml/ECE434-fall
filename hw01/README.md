@@ -17,3 +17,8 @@ hw1.py works, but isn't executable.
 Please resubmit.
 
 Grade:  4/10
+
+## Prof. Yoder's new comments
+Much better.  Thanks...
+
+Grade:  8/10
