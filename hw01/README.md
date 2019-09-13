@@ -1,4 +1,12 @@
+1: I have installed the latest shipped image.
+2: I set up host computer with linux.
+3: I have all the cables and SD cards.
+4: I installed git on my host.
+5: I signed up and posted to the two beagle groups.
+6: I wrote my etch a sketch program.
 
+In the etch a sketch game, use the arrow keys to move, the s key to reset the board, and the q key to 
+quit the program.
 
 ## Prof. Yoder's comments
 
