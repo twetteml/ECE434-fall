@@ -65,16 +65,15 @@ sleep time          period          processor usage
 5: About 50%
 6:
 sleep time          period          processor usage
-0.05                410us           48%
-0.025               407us           36%
-0.01                410us           45%
-0.005               408us           43%
+1000                3ms             48%
+60                  407us           36%
+0                   280us           100%
 
 7: The period is unstable
 8: When I ran vi, the period stayed around the 410us range rather than jumping to 500us.
 9: Used the c script
 10: Used the c script
-11: The smallest period I can get is 405us-410us.
+11: The smallest period I can get is 280us.
 
 ---Etch a Sketch---
 
