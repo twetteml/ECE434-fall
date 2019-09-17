@@ -78,7 +78,7 @@ sleep time          period          processor usage
 
 ---Etch a Sketch---
 
-Currently, I have completely implemented the etch a sketch program with the gpio
-pins with 4 push buttons. The only issue is that these buttons do not have access to 
-mutate the linux terminal screen, so the button presses are recognized, but they 
-do not change the etch a sketch visually.
+The 4 buttons draw the etch a sketch. If you press both button 1 and button 4 at 
+the same time, the program exits. If you hold down a button, the program automtically
+draws until it hits the edge of the window. Edit the window variable in the .py file
+to change the window size.

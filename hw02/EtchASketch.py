@@ -2,6 +2,7 @@
 import curses
 import sys
 import Adafruit_BBIO.GPIO as GPIO
+import time
 
 button1 = "P8_11"
 button2 = "P8_12"
@@ -18,66 +19,43 @@ GPIO.setup(button2, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 GPIO.setup(button3, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 GPIO.setup(button4, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 
+x = 0
+y = 0
+window = 10
+stdscr = curses.initscr()
 
-class Sketch(object):
-	def __init__(this):
-		this.pos = [0, 0]
-		this.pastPos = list(this.pos)
-		this.width=0
-		this.height=0
-		this.drawn = "O"
-		this.empty = " "
-		this.cursorM = "^"
-		this.stdscr = None
+while(1):
 
-
-	def shake(this):
-		this.height, this.width = this.stdscr.getmaxyx()
-		for y in range(0, this.height):
-			for x in range(0, this.width):
-				try:
-					this.stdscr.addstr(y, x, this.drawn)
-				except curses.error:
-					pass
-
-	def cursor(this):
-		try:
-			this.stdscr.addstr(this.pos[1], this.pos[0], this.cursorM)
-		except curses.error:
-			pass
-
-	def main(this, stdscr):
-		this.stdscr = stdscr
-		stdscr.clear()
-		this.shake()
-		print("Use buttons keys to sketch")
-		print("Press s key to reset the board")
-		print("Press q key to quit")
-		while True:
-			this.cursor()
-			c = stdscr.getch(this.height - 1, this.width - 1)
-			if GPIO.input(button1):
-				if this.pos[1] > 0:
-					this.pos[1] -= 1
-			elif GPIO.input(button2):
-				if this.pos[1] < this.height - 1:
-					this.pos[1] += 1
-			elif GPIO.input(button3):
-				if this.pos[0] > 0:
-					this.pos[0] -= 1
-			elif GPIO.input(button4):
-				if this.pos[0] < this.width - 1:
-					this.pos[0] += 1
-			elif c == ord('q'):
-				break
-			elif c == ord('s'):
-				this.shake()
-				this.pastPos = list(this.pos)
-				continue
-			else:
-			    continue
-			stdscr.addstr(this.pastPos[1], this.pastPos[0], this.empty)
-			this.pastPos = list(this.pos)
-
-sketch = Sketch()
-curses.wrapper(sketch.main)
+	if GPIO.input(button1):
+		y = y + 1
+		if y>=window:
+			y=window
+		stdscr.addstr(y, x, "0")
+		time.sleep(0.1)
+		
+	elif GPIO.input(button2):
+		y = y - 1
+		if y<0:
+			y=0
+		stdscr.addstr(y, x, "0")
+		time.sleep(0.1)
+		
+	elif GPIO.input(button3):
+		x = x + 1
+		if x>=window*2:
+			x=window*2
+		stdscr.addstr(y, x, "0 ")
+		time.sleep(0.1)
+		
+	elif GPIO.input(button4):
+		x = x - 1
+		if x < 0:
+			x=0
+		stdscr.addstr(y, x, "0")
+		time.sleep(0.1)
+		
+	if GPIO.input(button1) and GPIO.input(button4):
+		break
+		
+		
+	stdscr.refresh()
