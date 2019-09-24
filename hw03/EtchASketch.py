@@ -94,5 +94,6 @@ while(1):
 	    break
     r_pos = new_r_pos
     l_pos = new_l_pos
+    #Add to the matrix
     etch[2*x] = etch[2*x]|(0x80>>y)
     bus.write_i2c_block_data(matrix, 0, etch)

@@ -42,7 +42,7 @@ bus.write_byte_data(temp1, 2, 23)
 
 #writing high and low data for 2
 bus.write_byte_data(temp2, 3, 27)
-bus.write_byte_data(temp2, 2, 23)
+bus.write_byte_data(temp2, 2, 24)
 
 while(1):
     GPIO.output(led1, GPIO.LOW)
