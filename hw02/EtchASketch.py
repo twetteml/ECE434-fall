@@ -54,7 +54,7 @@ while(1):
 		stdscr.addstr(y, x, "0")
 		time.sleep(0.1)
 		
-	if GPIO.input(button1) and GPIO.input(button4):
+	elif GPIO.input(button1) and GPIO.input(button4):
 		break
 		
 		

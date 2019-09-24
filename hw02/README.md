@@ -73,7 +73,7 @@ sleep time          period          processor usage
 8: When I ran vi, the period stayed around the 410us range rather than jumping to 500us.
 9: Used the c script
 10: Used the c script
-11: The smallest period I can get is 280us.
+11: The smallest period I can get is 405us-410us.
 
 ---Etch a Sketch---
 
