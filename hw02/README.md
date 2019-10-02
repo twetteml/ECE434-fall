@@ -73,7 +73,7 @@ sleep time          period          processor usage
 8: When I ran vi, the period stayed around the 410us range rather than jumping to 500us.
 9: Used the c script
 10: Used the c script
-11: The smallest period I can get is 280us.
+11: The smallest period I can get is 405us-410us.
 
 ---Etch a Sketch---
 
@@ -81,3 +81,9 @@ The 4 buttons draw the etch a sketch. If you press both button 1 and button 4 at
 the same time, the program exits. If you hold down a button, the program automtically
 draws until it hits the edge of the window. Edit the window variable in the .py file
 to change the window size.
+
+## Prof. Yoder's comments
+
+Nice and complete.
+
+Grade:  10/10
