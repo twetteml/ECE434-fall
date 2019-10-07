@@ -37,3 +37,9 @@ SDRAM               |   0X8000_0000     |       0X8FFF_FFFF
 Successfully added tux.png and flipped him on the display.
 Added the text file displaying my name and text at the bottom of the screen
 Added the movie trailer to Spirited Away
+
+## Prof. Yoder's comments
+
+Well done.
+
+Grade:  10/10
