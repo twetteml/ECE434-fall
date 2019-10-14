@@ -35,3 +35,8 @@ This address (0x468008) is in our data section
 --Kernel Modules--
 
 
+## Prof. Yoder's comments
+
+Good start.  Kernal Modules need to be done.
+
+Grade:  5/10
