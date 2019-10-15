@@ -1,42 +1,26 @@
 Madeline Twetten
-Homework 5
+Homework 6
 
---Project--
-Successfully wrote in the project document. I signed up for the espresso machine
-and I will be working with Hannah and Rahul.
+--Watch--
 
---Make--
-Successfully did the make exercise on the wiki. I included the makefile in my
-directory.
+1. Where does Julia Cartwright work?
 
---Installng the Kernel Source--
-I installed the kernel source a received the following when telling it to boot
-one the bone.
+2. What is PREEMT_RT? Hint: Google it.
 
-debian@beaglebone:/var/lib/cloud9$ head -3 /boot/uEnv.txt
-#Docs: http://elinux.org/Beagleboard:U-boot_partitioning_layout_2.0
+3. What is mixed criticality?
 
-uname_r=5.4.0-rc2-bone1
+4. How can drivers misbehave?
 
---Cross-Compiling--
+5. What is Δ in Figure 1?
 
-From Host:
-Hello, World! Main is executing at 0x556308b406aa
-This address (0x7ffd95d50e60) is in our stack frame
-This address (0x556308d41018) is in our bss section
-This address (0x556308d41010) is in our data section
+6. What is Cyclictest[2]?
 
-From Bone:
-Hello, World! Main is executing at 0x4575ad
-This address (0xbecceb78) is in our stack frame
-This address (0x468010) is in our bss section
-This address (0x468008) is in our data section
+7. What is plotted in Figure 2?
 
---Kernel Modules--
-Succesfully completed the kernel modules, as shown in part3ex1.c file with the toggle.
+8. What is dispatch latency? Scheduling latency?
 
-## Prof. Yoder's comments
+9. What is mainline?
 
-Good start.  Kernal Modules need to be done.
+10. What is keeping the External event in Figure 3 from starting?
 
-Grade:  5/10
+11. Why can the External event in Figure 4 start sooner?
