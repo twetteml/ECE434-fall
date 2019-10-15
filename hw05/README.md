@@ -33,7 +33,7 @@ This address (0x468010) is in our bss section
 This address (0x468008) is in our data section
 
 --Kernel Modules--
-
+Succesfully completed the kernel modules, as shown in part3ex1.c file with the toggle.
 
 ## Prof. Yoder's comments
 
