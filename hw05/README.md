@@ -20,13 +20,11 @@ uname_r=5.4.0-rc2-bone1
 
 --Cross-Compiling--
 
-From Host:
 Hello, World! Main is executing at 0x556308b406aa
 This address (0x7ffd95d50e60) is in our stack frame
 This address (0x556308d41018) is in our bss section
 This address (0x556308d41010) is in our data section
 
-From Bone:
 Hello, World! Main is executing at 0x4575ad
 This address (0xbecceb78) is in our stack frame
 This address (0x468010) is in our bss section
@@ -34,4 +32,4 @@ This address (0x468008) is in our data section
 
 --Kernel Modules--
 
-
+Successfully completed the kernel modules. The toggle is in part3ex1.c file.
