@@ -33,12 +33,16 @@ This address (0x468008) is in our data section
 --Kernel Modules--
 Succesfully completed the kernel modules, as shown in part3ex1.c file with the toggle.
 
-<<<<<<< HEAD
 Successfully completed the kernel modules. The toggle is in part3ex1.c file.
-=======
+
 ## Prof. Yoder's comments
 
 Good start.  Kernal Modules need to be done.
 
 Grade:  5/10
->>>>>>> d1fd3224276a80e962e7a7e30224611b711183d7
+
+---- Additional comments ----
+Good to see the kernel modules are working.
+
+Late: -1
+Grade:  9/10

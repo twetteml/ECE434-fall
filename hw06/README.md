@@ -39,3 +39,9 @@ It can't start until the interrupt finishes.
 
 11. Why can the External event in Figure 4 start sooner?
 It can start sooner because it is now preemptive, so the interrupt can go into another thread.
+
+## Prof. Yoder's comments
+
+Good start.  Looking for plots.
+
+Grade:  7/10
