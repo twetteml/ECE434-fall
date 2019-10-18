@@ -40,6 +40,13 @@ It can't start until the interrupt finishes.
 11. Why can the External event in Figure 4 start sooner?
 It can start sooner because it is now preemptive, so the interrupt can go into another thread.
 
+--PREEMPT_RT--
+
+Added the plot outWithLoad.png that displays non-rt and preempt-rt running with a load
+The other plot without a load was not able to be added due to the "unable to change
+scheduling policy" error. We talked in class + I added my error to the google group 
+in hopes that it will be solved.
+
 ## Prof. Yoder's comments
 
 Good start.  Looking for plots.
