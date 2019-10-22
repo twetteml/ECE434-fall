@@ -1,5 +1,9 @@
 #!/usr/bin/env node
+// Madeline Twetten
+// ECE-434 Fall 2019
+// hw07 blynk and sliders
 // Blinks various LEDs
+
 
 const Blynk = require('blynk-library');
 const b = require('bonescript');
