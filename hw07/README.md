@@ -3,6 +3,7 @@ Homework 7
 
 --Project--
 Our project repo: https://github.com/woodyhm/Not_Your_Average_Cup_of_Joe
+Our project wiki page: https://elinux.org/ECE497_Project_Not_Your_Average_Cup_of_Joe
 
 --Blynk--
 
