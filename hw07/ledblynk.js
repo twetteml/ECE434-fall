@@ -32,7 +32,7 @@ v0.on('write', function(param) {
 
 v1.on('write', function(param) {
     var duty_cycle = param[0]/1023;
-    b.digitalWrite(LED1,duty_cycle);
+    b.analogWrite(LED1,duty_cycle);
 });
 
 v10.setValue(0);    // Initiallly off
