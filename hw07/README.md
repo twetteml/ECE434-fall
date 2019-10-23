@@ -15,3 +15,8 @@ virtual button. Additionally uses physical button on P9_25 to flash virtual LED.
 
 This is implemented successfully in ledblynk.js
 Use the slider to change the brightness of the LED on P9_14.
+
+## Prof. Yoder's comments
+Looks good.
+
+Grade:  10/10
