@@ -1,4 +1,37 @@
 Madeline Twetten
 Homework 8
 
+--2.6--
+Blinking an led
+completed this part successfully. Run the .sh file to setup pins
 
+--5.3--
+PWM Generator
+completed this part successfully. run the .sh file for pwm1 and 
+run make to execute the code pwm1.c
+
+--5.4--
+Controlling the PWM Frequency
+-completed this part successfully. run the .sh file for pwm4 and
+run make to execute the code pwm4.c
+
+-completed this part successfully. run the .sh file for pwm5 and
+run make to execute the code pwm5.c
+
+--5.9--
+Reading an Input at Regular Intervals
+-completed this part successfully. run the .sh file for  and
+run make to execute the code 
+
+--5.10--
+Analog Wave Generator
+
+
+--Table--
+Part    Speed   Jitter    StdDev    Stable    
+2.6     
+5.3
+5.4a
+5.4b
+5.9
+5.10
