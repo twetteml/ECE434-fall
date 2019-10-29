@@ -13,8 +13,7 @@
 #define USR1 (1<<22)
 #define USR2 (1<<23)
 #define USR3 (1<<24)
-#define P8_27 (2<<22)
-#define P9_27 (3<<19)
+#define P9_27 (1<<19)
 unsigned int volatile * const GPIO1_CLEAR = (unsigned int *) (GPIO1 + GPIO_CLEARDATAOUT);
 unsigned int volatile * const GPIO1_SET   = (unsigned int *) (GPIO1 + GPIO_SETDATAOUT);
 unsigned int volatile * const GPIO2_CLEAR = (unsigned int *) (GPIO2 + GPIO_CLEARDATAOUT);
@@ -31,7 +30,7 @@ void main(void) {
 	/* Clear SYSCFG[STANDBY_INIT] to enable OCP master port */
 	CT_CFG.SYSCFG_bit.STANDBY_INIT = 0;
 
-	for(i=0; i<100; i++) {
+	while(1) {
 		*GPIO3_SET = P9_27;
 		__delay_cycles(2500000);
 		*GPIO3_CLEAR = P9_27;
