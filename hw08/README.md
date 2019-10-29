@@ -4,11 +4,13 @@ Homework 8
 --2.6--
 Blinking an led
 completed this part successfully. Run the .sh file to setup pins
+scope0.png file 
 
 --5.3--
 PWM Generator
 completed this part successfully. run the .sh file for pwm1 and 
 run make to execute the code pwm1.c
+scope1.png file
 
 --5.4--
 Controlling the PWM Frequency
@@ -30,9 +32,9 @@ Analog Wave Generator
 --Table--
 Part....Speed....Jitter....StdDev....Stable
 ...........................................
-2.6........................................
+2.6.....12.5Mhz....Yes................Yes..
 ...........................................
-5.3........................................
+5.3................Yes................Yes..
 ...........................................
 5.4a.......................................
 ...........................................
