@@ -43,3 +43,9 @@ Part....Speed....Jitter....StdDev....Stable
 5.9........................................
 ...........................................
 5.10.......................................
+
+## Prof. Yoder's comments
+
+Looks like a good start, but not finished.  Be sure to answer the questions
+in each part.
+
