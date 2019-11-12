@@ -15,3 +15,9 @@ https://docs.google.com/spreadsheets/d/1b0awQgRcbtjZIdn4nwlfltHFaVpTL0hMLnSQFMRW
 ## --ThingSpeak--
 Successfully completed the thingspeak part of the homework. Added in files temp.js
 and keys_office.json
+
+## Prof. Yoder's comments
+
+Waiting for permission to see your sheet.
+
+Grade:  10/10
