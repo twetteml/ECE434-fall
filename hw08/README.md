@@ -51,4 +51,4 @@ in each part.
 
 ## Prof. Yoder's new comments
 
-Still now questions answered.
+Still no questions answered.
